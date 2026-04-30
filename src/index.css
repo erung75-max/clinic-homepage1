@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&family=Nanum+Gothic+Coding&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Jua", "Gowun Dodum", sans-serif;
+  --color-pastel-pink: #fce7f3;
+  --color-pastel-blue: #e0f2fe;
+  --color-pastel-mint: #f0fdf4;
+  --color-pastel-yellow: #fef9c3;
+  --color-clinic-blue: #fb7185; /* Soft rose for accents */
+  --color-clinic-accent: #f472b6;
+  --color-clinic-bg: #fffafb;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-clinic-bg;
+  }
+}
