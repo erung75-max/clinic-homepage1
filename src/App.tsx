@@ -1015,3 +1015,15 @@ export default function App() {
     </div>
   );
 }
+<div style={{
+  marginTop: "60px",
+  padding: "20px",
+  fontSize: "14px",
+  color: "#666",
+  textAlign: "center",
+  borderTop: "1px solid #eee"
+}}>
+  <p>율하삼성안과</p>
+  <p>대구 동구 안심로 22길 60</p>
+  <p>드림렌즈 및 백내장 수술 전문 안과</p>
+</div>
